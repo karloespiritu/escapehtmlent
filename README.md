@@ -4,6 +4,7 @@ A small utility to escape/unescape HTML entities
 
 ##Usage
 
+```
  var escapehtmlent = require('escapehtmlent')
       escape = escapehtmlent.escape,
       unescape = escapehtmlent.unescape;
@@ -13,3 +14,4 @@ A small utility to escape/unescape HTML entities
       unescaped = unescape(escaped);
 
   console.log('html:'+html+'|escaped:'+escaped+'|unescaped:'+unescaped);
+```  
